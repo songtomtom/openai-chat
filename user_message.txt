@@ -1,3 +1,54 @@
-[
-	"To whom it may concern,My name is Michael Brown.",
-]
+유저:
+
+{
+  "id": "60129542148",
+  "result": {
+    "form": "CompoundSentence",
+    "output": [
+      {
+        "content": "I was surprised",
+        "clause_type": "MainClause",
+        "index": 1,
+        "chunks": [
+          {
+            "content": "I",
+            "chunk_type": "Subject",
+            "index": 1
+          },
+          {
+            "content": "was surprised",
+            "chunk_type": "Verb",
+            "index": 2
+          }
+        ]
+      },
+      {
+        "content": "and excited to find out about a community of passionate bird-watchers who travel annually to go birding.",
+        "clause_type": "MainClause",
+        "index": 2,
+        "chunks": [
+          {
+            "content": "and",
+            "chunk_type": "Conjunction",
+            "index": 1
+          },
+          {
+            "content": "excited to find out about",
+            "chunk_type": "Verb",
+            "index": 2
+          },
+          {
+            "content": "a community of passionate bird-watchers",
+            "chunk_type": "Object",
+            "index": 3
+          },
+          {
+            "content": "who travel annually to go birding",
+            "chunk_type": "ObjectModifier",
+            "index": 4
+          }
+        ]
+      }
+    ]
+  }
+}
